@@ -19,6 +19,7 @@ public class POOGame extends ApplicationAdapter {
 	private SpriteBatch batch;
 	private Texture img;
 
+	//Variables de Assets
 	private Texture dropImage;
 	private Texture bucketImage;
 	private Sound dropSound;
@@ -30,6 +31,8 @@ public class POOGame extends ApplicationAdapter {
 
 	@Override
 	public void create () {
+
+		//
 		//batch = new SpriteBatch();
 		img = new Texture("badlogic.jpg");
 		// CARGADO DE IMAGENES
