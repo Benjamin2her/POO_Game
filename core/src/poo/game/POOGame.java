@@ -19,7 +19,7 @@ public class POOGame extends ApplicationAdapter {
 	private SpriteBatch batch;
 	private Texture img;
 
-	//Variables de Assets - Vectores
+	//Variables de Assets 
 	private Texture dropImage;
 	private Texture bucketImage;
 	private Sound dropSound;
